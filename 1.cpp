@@ -1,10 +1,3 @@
-/*
- * @Author: MrSecond 
- * @Date: 2020-07-23 15:10:01 
- * @Last Modified by: MrSecond
- * @Last Modified time: 2020-07-23 15:51:12
- */
-
 //数组中任意一个重复的数字
 #include <iostream>
 #include <vector>
