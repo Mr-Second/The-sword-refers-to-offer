@@ -30,20 +30,40 @@ bool increment(vector<int>& number) {
     return isOver;
 }
 
+void prettyPrint(const vector<int>& number) {
+    int firstIndex = 0;
+    if(number.size() == 1) {
+        cout << number[0];
+        return; 
+    }
+
+    for(int i = 0; i < number.size() - 1; i++) {
+        if(number[i] != 0) {
+            firstIndex = i;
+            break;
+        }
+        if(number[i] == 0 && number[i + 1] != 0) {
+            firstIndex = i + 1;
+            break;
+        }
+    }
+    for(int i = firstIndex; i < number.size(); i++) {
+        cout << number.at(i);
+    }
+}
+
 void printNumber(int n) {
     if(n <= 0)
         return;
     vector<int> number(n, 0);
     while(!increment(number)) {
-        for(int bit: number) {
-            cout << bit;
-        }
+        prettyPrint(number);
         cout << endl;
     }
 }
 
 int main(int argc, char const *argv[])
 {
-    printNumber(5);
+    printNumber(3);
     return 0;
 }
