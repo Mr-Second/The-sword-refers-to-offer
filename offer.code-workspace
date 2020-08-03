@@ -13,7 +13,9 @@
 			"initializer_list": "cpp",
 			"xstring": "cpp",
 			"xutility": "cpp",
-			"cmath": "cpp"
+			"cmath": "cpp",
+			"regex": "cpp",
+			"xlocmon": "cpp"
 		}
 	}
 }
