@@ -15,7 +15,8 @@
 			"xutility": "cpp",
 			"cmath": "cpp",
 			"regex": "cpp",
-			"xlocmon": "cpp"
+			"xlocmon": "cpp",
+			"xlocale": "cpp"
 		}
 	}
 }
