@@ -23,7 +23,14 @@
 			"string": "cpp",
 			"deque": "cpp",
 			"map": "cpp",
-			"xtree": "cpp"
+			"xtree": "cpp",
+			"list": "cpp",
+			"xhash": "cpp",
+			"algorithm": "cpp",
+			"limits": "cpp",
+			"exception": "cpp",
+			"queue": "cpp",
+			"stack": "cpp"
 		},
 		"cSpell.words": [
 			"stoi"
