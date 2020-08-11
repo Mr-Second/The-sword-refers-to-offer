@@ -32,7 +32,8 @@
 			"queue": "cpp",
 			"stack": "cpp",
 			"iterator": "cpp",
-			"memory": "cpp"
+			"memory": "cpp",
+			"utility": "cpp"
 		},
 		"cSpell.words": [
 			"stoi"
