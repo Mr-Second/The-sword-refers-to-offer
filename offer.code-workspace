@@ -30,7 +30,9 @@
 			"limits": "cpp",
 			"exception": "cpp",
 			"queue": "cpp",
-			"stack": "cpp"
+			"stack": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp"
 		},
 		"cSpell.words": [
 			"stoi"
