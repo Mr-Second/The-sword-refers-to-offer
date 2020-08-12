@@ -33,7 +33,8 @@
 			"stack": "cpp",
 			"iterator": "cpp",
 			"memory": "cpp",
-			"utility": "cpp"
+			"utility": "cpp",
+			"unordered_map": "cpp"
 		},
 		"cSpell.words": [
 			"stoi"
