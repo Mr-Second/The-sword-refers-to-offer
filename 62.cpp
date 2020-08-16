@@ -15,7 +15,7 @@ public:
         for(int i = 1; i < data.size(); i++)
             res ^= data[i];
         int target = 1;
-        while((res & 1) == 0) {
+        while((res & 1) == 0) { //找到异或结果中最右边的那个1
             res >>= 1;
             target <<= 1;
         }
