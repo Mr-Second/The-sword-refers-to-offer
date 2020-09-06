@@ -22,6 +22,6 @@ int findAnyDuplicatedNumber(vector<int>& nums) {
 int main(int argc, char const *argv[])
 {
     vector<int> nums= {2,3,1,0,2,5,3};
-    cout << findFirstNumber(nums) << endl;
+    cout << findAnyDuplicatedNumber(nums) << endl;
     return 0;
 }
